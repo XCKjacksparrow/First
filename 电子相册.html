@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		body{background: #666;}
+		.photo{width: 800px; height: 1000px; background: #f00; position: fixed; top: 50%; left:50%; margin-top: -500px; margin-left: -400px;}
+		.photo h1{text-align: center; color: #fff; padding: 20px 0; }
+		.photo .pic1{width: 580px; height: 820px; border: 10px dotted #fff; float: left; margin: 0 20px; background: #ff0; overflow: hidden;}
+		.photo .pic2{width: 79px; height: 820px; border: 10px solid #fff; float: left; overflow-y: auto;}
+
+		.photo .pic2 .button{width: 56px; height: 120px; font-size: 20px; text-align: center; color: #000;}
+		.photo .pic2 a{text-decoration: none;}
+
+		.photo .pic2 a:hover {text-decoration: underline;}
+
+		</style>
+</head>
+<body>
+	<div class="photo">
+		<h1>电子相册</h1>
+		<div class="pic1">
+			<img src="img/贴吧/1.jpg" id="旧剑">
+			<img src="img/贴吧/2.jpg" id="血小板">
+			<img src="img/贴吧/3.jpg" id="山中老人">
+			<img src="img/贴吧/4.jpg" id="式姐">
+			<img src="img/贴吧/5.jpg" id="不明">
+			<img src="img/贴吧/6.jpg" id="弗兰肯斯坦">
+			<img src="img/贴吧/7.jpg" id="师乃">
+			<img src="img/贴吧/8.jpg" id="加藤恵">
+		</div>
+		<div class="pic2">
+			<a href="#旧剑"><div class="button">旧剑</div></a>
+			<a href="#血小板"><div class="button">血小板</div></a>
+			<a href="#山中老人"><div class="button">山中老人</div></a>
+			<a href="#式姐"><div class="button">式姐</div></a>
+			<a href="#不明"><div class="button">不明</div></a>
+			<a href="#弗兰肯斯坦"><div class="button">弗兰肯斯坦</div></a>
+			<a href="#师乃"><div class="button">师乃</div></a>
+			<a href="#加藤恵"><div class="button">加藤恵</div></a>
+		</div>
+	</div>
+</body>
+</html>
